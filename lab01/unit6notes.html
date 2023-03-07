@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First CSS Page</title>
+    <style>
+        /* below is an element selector */
+        h1 {color:blue;}
+        /* below is a grouped selector */
+        p, h1 {
+            font-size: 200%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight:100;
+            background-color:gold; 
+        }
+        /* descendant selector only chnages links inside parargraph tags */
+        p a {
+            color: blue;
+        }
+        /* class selector can be used to pick one or more tags on page */
+        .secondpara {
+            color: deeppink;
+        }
+        /* this is an id selector ids must be unique */
+        #firstpara {
+            color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>CSS Day</h1>
+    <a href="https://www.google.com">Google</a>
+    <p id="firstpara">
+        <a href="https://www.amazon.com">Amazon</a>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint aperiam, obcaecati quae ipsum, aspernatur asperiores eius illo reiciendis perspiciatis et quidem sit est, provident temporibus vel tempore maiores nisi id?</p>
+    <p class="secondpara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid itaque iure ab! Quidem illo, quisquam obcaecati enim maiores sint nam explicabo eligendi nemo inventore exercitationem nesciunt. Magnam nihil voluptate ab.</p>
+    
+</body>
+</html>

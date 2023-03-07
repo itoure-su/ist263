@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participation P6</title>
+    <style>
+        /* descendant selector only chnages links inside parargraph tags */
+        p {
+            color: blue;
+        }
+        /* class selector can be used to pick one or more tags on page */
+        .secondpara {
+            color: deeppink;
+        }
+        /* this is an id selector ids must be unique */
+        #firstpara {
+            color: blueviolet;
+        }
+    </style>
+
+ </head>
+ <body>
+    <p id="firstpara">Lorem ipsum, I tried! lol dolor sit amet consectetur adipisicing elit. Qui aliquid provident blanditiis soluta, non minus debitis obcaecati impedit numquam sunt magni ratione aliquam fugiat doloremque, eum, eos quas accusantium repellat.</p>
+    <p class="secondpara">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est sequi quo, qui quas praesentium eos repellendus ea non quis necessitatibus! Veniam quo officia voluptates ipsam animi ab velit voluptatem itaque.</p>    
+ </body>
+ </html> 
